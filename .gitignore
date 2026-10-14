@@ -1,0 +1,14 @@
+# MkDocs build output (regenerate with `mkdocs build`)
+site/
+
+# Gradle / WPILib build output (once robot code exists)
+build/
+.gradle/
+bin/
+
+# Editors / OS
+.vscode/settings.json
+.idea/
+*.iml
+.DS_Store
+Thumbs.db

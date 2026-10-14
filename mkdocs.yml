@@ -1,0 +1,38 @@
+site_name: Learning Swerve From Scratch
+site_description: An FRC training course that builds a swerve drive from scratch to understand how it works.
+theme:
+  name: readthedocs   # same look as static.alvear.cl/frc-coding-notes (Read the Docs style)
+  highlightjs: true
+  hljs_languages:
+    - java
+    - yaml
+  navigation_depth: 2
+extra_css:
+  - stylesheets/modern.css
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - fenced_code
+  - md_in_html
+nav:
+  - Home: index.md
+  - Course Rules: rules.md
+  - Our Hardware: hardware.md
+  - Project Conventions: conventions.md
+  - Phases:
+    - "0. Setup": phases/phase-00-setup.md
+    - "1. Geometry and Frames": phases/phase-01-geometry.md
+    - "2. One Swerve Module": phases/phase-02-module.md
+    - "3. Module Optimization": phases/phase-03-optimization.md
+    - "4. Inverse Kinematics": phases/phase-04-inverse-kinematics.md
+    - "5. Four Modules + Teleop": phases/phase-05-teleop.md
+    - "6. Gyro and Field-Relative": phases/phase-06-field-relative.md
+    - "7. Forward Kinematics and Odometry": phases/phase-07-odometry.md
+    - "8. Discretization": phases/phase-08-discretization.md
+    - "9. Real Hardware Bring-up": phases/phase-09-hardware.md
+    - "10. Tuning and Characterization": phases/phase-10-tuning.md
+    - "11. Autonomous Basics": phases/phase-11-auto.md
+    - "12. Graduation: YAGSL": phases/phase-12-yagsl.md
+  - Useful Links: links.md
