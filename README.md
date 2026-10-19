@@ -2,7 +2,7 @@
 
 An FRC team training course for building a swerve drive **from scratch to learn how it works**. This is a teaching project, not competition code. Once the team understands the system, we'll switch to an established library (YAGSL, or CTRE's swerve generator) for competition.
 
-Right now this folder holds the **course material**: a documentation website built with [MkDocs](https://www.mkdocs.org/). The robot code (a WPILib Command-Based Java project) gets created in Phase 0 of the course.
+Right now this folder holds the **course material**: a documentation website built with [MkDocs](https://www.mkdocs.org/). The robot code (a WPILib Command-Based Java project) gets created in Phase 0 of the course. A runnable reference version lives in [Team-5176/swerve-learn-robot](https://github.com/Team-5176/swerve-learn-robot); clone it next to this folder (see `docs/companion-code.md`).
 
 ## What's in this folder
 

@@ -1,6 +1,12 @@
 # Companion Code
 
-A runnable WPILib project lives next to this course in **`swerve-learn-robot`** (for example `C:\code\swerve-learn-robot`). It is a simulated swerve drive using [our hardware numbers](hardware.md). It runs on any laptop, and you don't need a robot.
+A runnable WPILib project goes with this course: **[Team-5176/swerve-learn-robot](https://github.com/Team-5176/swerve-learn-robot)**. It is a simulated swerve drive using [our hardware numbers](hardware.md). It runs on any laptop, and you don't need a robot.
+
+Clone it next to the course folder (for example, both inside `C:\code`):
+
+```bash
+git clone https://github.com/Team-5176/swerve-learn-robot.git
+```
 
 !!! warning "This is the answer key"
     The project already contains working solutions for the core math (`lib/`). The course asks you to write that math yourself first. Use the companion project to **run** things: the simulator, AdvantageScope, and the unit tests that check your work. Don't copy from `lib/`. Write your version, then make the tests pass.
