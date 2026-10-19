@@ -19,21 +19,27 @@ Because the goal is understanding, **how** you help matters more than how fast t
 9. **Safety.** Before any code runs on real hardware, remind us to put the robot on blocks, have someone on the E-stop, and start with low speed limits.
 10. **End each phase with a checkpoint:** a short summary of what we learned, 3–5 quiz questions to check understanding, and what could go wrong in the real world.
 
-## Our hardware (fill this in)
+## Our hardware
+
+Values from team 5176's 2026 robot (5176-Rebuilt). Full details, module positions, CAN IDs and encoder offsets are in `docs/hardware.md`.
 
 | Item | Value |
 |---|---|
 | Language | Java |
-| Module type (e.g. SDS MK4i L2, WCP X2, REV MAXSwerve) | |
-| Drive motor + controller (e.g. Kraken X60 / TalonFX, NEO / SPARK MAX) | |
-| Steer motor + controller | |
-| Absolute encoder (CANcoder, Thrifty, REV through-bore, etc.) | |
-| Gyro (Pigeon 2, NavX, etc.) | |
-| Drive gear ratio | |
-| Steer gear ratio | |
-| Wheel diameter | |
-| Trackwidth / wheelbase (module center to center) | |
-| CAN IDs | |
+| Module type | Not recorded yet (check the robot) |
+| Drive motor + controller | REV NEO Vortex / SPARK Flex |
+| Steer motor + controller | Kraken X44 / TalonFX |
+| Absolute encoder | Thrifty (roboRIO analog inputs) |
+| Gyro | Studica NavX3 |
+| Drive gear ratio | 6.03 : 1 |
+| Steer gear ratio | 26.09 : 1 (287/11) |
+| Wheel diameter | 4 in |
+| Trackwidth / wheelbase (module center to center) | 21.75 in / 20.25 in (modules are offset from center; see docs/hardware.md) |
+| CAN IDs | See docs/hardware.md |
+
+## Companion code
+
+A runnable reference implementation of Phases 0–8 lives in `../swerve-learn-robot` (see `docs/companion-code.md`). It contains full solutions in `lib/`, so when students are working through a phase, guide them to write their own version rather than pointing them at that code.
 
 ## Project conventions
 

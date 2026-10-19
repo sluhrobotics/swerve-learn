@@ -17,6 +17,8 @@ Each phase follows the same pattern:
 4. **Hand-roll, then compare to WPILib** with a unit test.
 5. **Checkpoint:** summary, quiz questions, and what can go wrong in the real world.
 
+A runnable simulated swerve project goes with the course. See [Companion Code](companion-code.md) for how to run it and which files go with each phase.
+
 ## Roadmap
 
 | Phase | Topic | You will be able to... |

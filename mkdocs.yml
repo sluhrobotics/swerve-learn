@@ -21,6 +21,7 @@ nav:
   - Course Rules: rules.md
   - Our Hardware: hardware.md
   - Project Conventions: conventions.md
+  - Companion Code: companion-code.md
   - Phases:
     - "0. Setup": phases/phase-00-setup.md
     - "1. Geometry and Frames": phases/phase-01-geometry.md
